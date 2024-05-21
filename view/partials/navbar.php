@@ -1,6 +1,6 @@
 <div class="header">
     <div class="minidiv">
-            <div class="logo">HOGWARTS UNIVERSITY</div>
+            <div class="logo"><a href="home">HOGWARTS UNIVERSITY</a></div>
             <div class='login'>
             <?php 
         session_start(); 
