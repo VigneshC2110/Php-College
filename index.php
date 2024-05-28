@@ -33,6 +33,9 @@ switch ($uri) {
     case '/logout':
         require 'logout.php';
         break;
+    case '/table':
+        require 'table.php';
+        break;
 }
 
 ?>

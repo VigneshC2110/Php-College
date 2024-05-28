@@ -1,6 +1,17 @@
 <div class="header">
     <div class="minidiv">
             <div class="logo"><a href="home">HOGWARTS UNIVERSITY</a></div>
+            <div class="view">
+            <?php 
+        session_start(); 
+
+        if(isset($_SESSION['email']) && $_SESSION['email']=="vigneshcdckap@gmail.com"){
+            echo "<a href='table'><span>View Members</span></a>";
+        } else {
+            echo "";
+        }
+    ?>
+            </div>
             <div class='login'>
             <?php 
         session_start(); 
