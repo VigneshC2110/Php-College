@@ -36,6 +36,9 @@ switch ($uri) {
     case '/table':
         require 'table.php';
         break;
+    case '/admin':
+        require 'table.php';
+        break;
 }
 
 ?>
